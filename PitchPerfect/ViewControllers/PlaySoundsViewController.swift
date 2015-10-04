@@ -57,6 +57,7 @@ class PlaySoundsViewController: UIViewController {
     }
     
     @IBAction func playDarthvaderAudio(sender: AnyObject) {
+        playAudioWithVariablePitch(-1000)
     }
     
     func playAudioWithVariablePitch(pitch: Float) {
